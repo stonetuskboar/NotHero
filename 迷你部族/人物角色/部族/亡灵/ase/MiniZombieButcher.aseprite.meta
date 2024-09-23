@@ -1,0 +1,1589 @@
+fileFormatVersion: 2
+guid: e46fb57236511aa489f61dc4de51d49b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniZombieButcher_Frame_1
+    originalName: 
+    pivot: {x: 1, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 24
+      width: 9
+      height: 8
+    spriteID: 73487b449c9b9bd4a9fcfe16636ce233
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 24}
+  - name: MiniZombieButcher_Frame_2
+    originalName: 
+    pivot: {x: 0.90000004, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 4
+      width: 10
+      height: 11
+    spriteID: 038d6d625820e3944a401be614a4d1b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 4}
+  - name: MiniZombieButcher_Frame_3
+    originalName: 
+    pivot: {x: 0.27272728, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 162
+      width: 11
+      height: 3
+    spriteID: 49c80318fc2ba6a4e91182e947fcaad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 162}
+  - name: MiniZombieButcher_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 247
+      width: 16
+      height: 3
+    spriteID: 5a6a742b0d4d07449b4eea3eefc5340d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 247}
+  - name: MiniZombieButcher_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 148
+      width: 16
+      height: 6
+    spriteID: 56a2e33cec291594da229fbbe8752836
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 148}
+  - name: MiniZombieButcher_Frame_6
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 134
+      width: 18
+      height: 6
+    spriteID: 7062a2c80d32bde468614747c3b8bf57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 134}
+  - name: MiniZombieButcher_Frame_7
+    originalName: 
+    pivot: {x: 0.57894737, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 120
+      width: 19
+      height: 6
+    spriteID: 0dbd815a8235c16489d472828db5ed38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 120}
+  - name: MiniZombieButcher_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 24
+      width: 18
+      height: 9
+    spriteID: 427989366217b2e4da853c6c186398f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 24}
+  - name: MiniZombieButcher_Frame_9
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 228
+      width: 17
+      height: 11
+    spriteID: 9f6e0ce27a28fc746aef5b1758b86340
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 228}
+  - name: MiniZombieButcher_Frame_10
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 131
+      width: 17
+      height: 12
+    spriteID: 946739faf00a8da48bf1a404dd890848
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 131}
+  - name: MiniZombieButcher_Frame_11
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 172
+      width: 19
+      height: 12
+    spriteID: 77581bbe406931846be76a06aed98b0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 172}
+  - name: MiniZombieButcher_Frame_12
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 176
+      width: 19
+      height: 13
+    spriteID: 43b0a4c9a85b04b48aa68bf2133a5e13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 176}
+  - name: MiniZombieButcher_Frame_13
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 197
+      width: 19
+      height: 13
+    spriteID: 93a5dd9d00cf2a94c93e17bb51212784
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 197}
+  - name: MiniZombieButcher_Frame_14
+    originalName: 
+    pivot: {x: 0.35, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 4
+      width: 20
+      height: 12
+    spriteID: f89251d33f713c248be5f72a3148e5b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 4}
+  - name: MiniZombieButcher_Frame_15
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 192
+      width: 19
+      height: 12
+    spriteID: b2ca90ad13ed0d34ba97ad28732416cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 192}
+  - name: MiniZombieButcher_Frame_16
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 218
+      width: 19
+      height: 13
+    spriteID: 8e12b82573c6dca439ff20059657abc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 218}
+  - name: MiniZombieButcher_Frame_17
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 90
+      width: 15
+      height: 14
+    spriteID: b5f7f1bc97ef2124882d3a39e28ea76d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 90}
+  - name: MiniZombieButcher_Frame_18
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 4
+      width: 15
+      height: 12
+    spriteID: a79b717265652104a8b74a87e951be43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 4}
+  - name: MiniZombieButcher_Frame_19
+    originalName: 
+    pivot: {x: 0.3529412, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 48
+      width: 17
+      height: 13
+    spriteID: 713b3aa5e6cf2fc43990a3d54cba6c5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 48}
+  - name: MiniZombieButcher_Frame_20
+    originalName: 
+    pivot: {x: 0.4, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 20
+      height: 14
+    spriteID: 47ac4c518121bdb4c84d3e515ac2deee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: MiniZombieButcher_Frame_21
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 212
+      width: 19
+      height: 12
+    spriteID: e8458b3457fd6e04eb2859e53ab90723
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 212}
+  - name: MiniZombieButcher_Frame_22
+    originalName: 
+    pivot: {x: 0.3529412, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 69
+      width: 17
+      height: 13
+    spriteID: b9e681ab812f1d84594cd1d11c0ad506
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 69}
+  - name: MiniZombieButcher_Frame_23
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 19
+      height: 14
+    spriteID: 3348d4a3c93861a4ea1e5b222e0b50fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: MiniZombieButcher_Frame_24
+    originalName: 
+    pivot: {x: 0.4, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 47
+      width: 20
+      height: 14
+    spriteID: 6e9c2a007bf1caf419f2babeae671af3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 47}
+  - name: MiniZombieButcher_Frame_25
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 112
+      width: 19
+      height: 11
+    spriteID: 2b0f9d6167efcd54fbdaaa01231c2d35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 112}
+  - name: MiniZombieButcher_Frame_26
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 239
+      width: 19
+      height: 13
+    spriteID: 2531ffd4a323e104a9e537a41c42f4c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 239}
+  - name: MiniZombieButcher_Frame_27
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 75
+      width: 18
+      height: 7
+    spriteID: 3b0480cd640a6644892087819713f93a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 75}
+  - name: MiniZombieButcher_Frame_28
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 90
+      width: 18
+      height: 7
+    spriteID: 976c5c06f8da8f04282a9a928d8af7a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 90}
+  - name: MiniZombieButcher_Frame_29
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 41
+      width: 18
+      height: 9
+    spriteID: 0970aeb065168a5499bb6ba4958570c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 41}
+  - name: MiniZombieButcher_Frame_30
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 151
+      width: 18
+      height: 11
+    spriteID: 568e975546c2fd84b9b2f7fa286cccaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 151}
+  - name: MiniZombieButcher_Frame_31
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 170
+      width: 18
+      height: 11
+    spriteID: 7154273779df6384680c79fcb0a27d97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 170}
+  - name: MiniZombieButcher_Frame_32
+    originalName: 
+    pivot: {x: 0.3125, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 208
+      width: 16
+      height: 12
+    spriteID: 38e5116d16f4f714db66140a32f6641f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 208}
+  - name: MiniZombieButcher_Frame_33
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 232
+      width: 19
+      height: 12
+    spriteID: 22dc16ec9d33f584fa38fc01922342d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 232}
+  - name: MiniZombieButcher_Frame_34
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 4
+      width: 19
+      height: 13
+    spriteID: 7b1b7695804dff4409486d21e14ed852
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 4}
+  - name: MiniZombieButcher_Frame_35
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 25
+      width: 19
+      height: 13
+    spriteID: 5d186bfe96e67be40b8f456978f1f136
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 25}
+  - name: MiniZombieButcher_Frame_36
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 46
+      width: 19
+      height: 13
+    spriteID: 209f6951e52231e4fae09f2be0e65a1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 46}
+  - name: MiniZombieButcher_Frame_37
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 67
+      width: 19
+      height: 13
+    spriteID: eb37523dd3e56cf4f8a6b06ce9330a17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 67}
+  - name: MiniZombieButcher_Frame_38
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 151
+      width: 18
+      height: 13
+    spriteID: 0f079b35e37368e479d3144f2df2c6d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 151}
+  - name: MiniZombieButcher_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 24
+      width: 14
+      height: 16
+    spriteID: 09ff8bf636b18fb438061e1e9c979782
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 24}
+  - name: MiniZombieButcher_Frame_40
+    originalName: 
+    pivot: {x: 0.25, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 69
+      width: 20
+      height: 14
+    spriteID: 5dbc63f59199dfc42983d89a4385d235
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 69}
+  - name: MiniZombieButcher_Frame_41
+    originalName: 
+    pivot: {x: 0.23809524, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 21
+      height: 13
+    spriteID: c4dde59a244a1504c9afda4870b44cf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: MiniZombieButcher_Frame_42
+    originalName: 
+    pivot: {x: 0.3, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 134
+      width: 20
+      height: 13
+    spriteID: 2190e88c335419444b53a57fac5eebc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 134}
+  - name: MiniZombieButcher_Frame_43
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 88
+      width: 19
+      height: 13
+    spriteID: 00fe574511866284cb83105ce28cf1be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 88}
+  - name: MiniZombieButcher_Frame_44
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 22
+      height: 13
+    spriteID: d02ae815b6e40474bbea67f40315e625
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniZombieButcher_Frame_45
+    originalName: 
+    pivot: {x: 0.4, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 155
+      width: 20
+      height: 13
+    spriteID: d60d808c7887330438c65d988c32ed94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 155}
+  - name: MiniZombieButcher_Frame_46
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 109
+      width: 19
+      height: 13
+    spriteID: 8a6e4ea0e5d117c47a1bae95cd4232e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 109}
+  - name: MiniZombieButcher_Frame_47
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 130
+      width: 19
+      height: 13
+    spriteID: 6ddf44397e0d77a4692e06d4d62162c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 130}
+  - name: MiniZombieButcher_Frame_48
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 189
+      width: 18
+      height: 11
+    spriteID: 819434673ad24b2458c4a0a91d6d3248
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 189}
+  - name: MiniZombieButcher_Frame_49
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 58
+      width: 18
+      height: 9
+    spriteID: 4e07bcd1da99cb84682781437c82844f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 58}
+  - name: MiniZombieButcher_Frame_50
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 105
+      width: 18
+      height: 7
+    spriteID: 264f24a4c56b7934fa6985dc0634992c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 105}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -307064222
+    name: MiniZombieButcher
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniZombieButcher_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 9
+        height: 8
+      spriteId: 73487b449c9b9bd4a9fcfe16636ce233
+    - name: MiniZombieButcher_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 10
+        height: 11
+      spriteId: 038d6d625820e3944a401be614a4d1b5
+    - name: MiniZombieButcher_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 1
+        width: 11
+        height: 3
+      spriteId: 49c80318fc2ba6a4e91182e947fcaad6
+    - name: MiniZombieButcher_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 3
+      spriteId: 5a6a742b0d4d07449b4eea3eefc5340d
+    - name: MiniZombieButcher_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 6
+      spriteId: 56a2e33cec291594da229fbbe8752836
+    - name: MiniZombieButcher_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 1
+        width: 18
+        height: 6
+      spriteId: 7062a2c80d32bde468614747c3b8bf57
+    - name: MiniZombieButcher_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 1
+        width: 19
+        height: 6
+      spriteId: 0dbd815a8235c16489d472828db5ed38
+    - name: MiniZombieButcher_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 18
+        height: 9
+      spriteId: 427989366217b2e4da853c6c186398f8
+    - name: MiniZombieButcher_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 17
+        height: 11
+      spriteId: 9f6e0ce27a28fc746aef5b1758b86340
+    - name: MiniZombieButcher_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 17
+        height: 12
+      spriteId: 946739faf00a8da48bf1a404dd890848
+    - name: MiniZombieButcher_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 19
+        height: 12
+      spriteId: 77581bbe406931846be76a06aed98b0c
+    - name: MiniZombieButcher_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 43b0a4c9a85b04b48aa68bf2133a5e13
+    - name: MiniZombieButcher_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 93a5dd9d00cf2a94c93e17bb51212784
+    - name: MiniZombieButcher_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 20
+        height: 12
+      spriteId: f89251d33f713c248be5f72a3148e5b6
+    - name: MiniZombieButcher_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 12
+      spriteId: b2ca90ad13ed0d34ba97ad28732416cb
+    - name: MiniZombieButcher_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 8e12b82573c6dca439ff20059657abc9
+    - name: MiniZombieButcher_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 15
+        height: 14
+      spriteId: b5f7f1bc97ef2124882d3a39e28ea76d
+    - name: MiniZombieButcher_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 15
+        height: 12
+      spriteId: a79b717265652104a8b74a87e951be43
+    - name: MiniZombieButcher_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 17
+        height: 13
+      spriteId: 713b3aa5e6cf2fc43990a3d54cba6c5a
+    - name: MiniZombieButcher_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 20
+        height: 14
+      spriteId: 47ac4c518121bdb4c84d3e515ac2deee
+    - name: MiniZombieButcher_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 19
+        height: 12
+      spriteId: e8458b3457fd6e04eb2859e53ab90723
+    - name: MiniZombieButcher_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 17
+        height: 13
+      spriteId: b9e681ab812f1d84594cd1d11c0ad506
+    - name: MiniZombieButcher_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 19
+        height: 14
+      spriteId: 3348d4a3c93861a4ea1e5b222e0b50fc
+    - name: MiniZombieButcher_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 20
+        height: 14
+      spriteId: 6e9c2a007bf1caf419f2babeae671af3
+    - name: MiniZombieButcher_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 19
+        height: 11
+      spriteId: 2b0f9d6167efcd54fbdaaa01231c2d35
+    - name: MiniZombieButcher_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 2531ffd4a323e104a9e537a41c42f4c5
+    - name: MiniZombieButcher_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 7
+      spriteId: 3b0480cd640a6644892087819713f93a
+    - name: MiniZombieButcher_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 7
+      spriteId: 976c5c06f8da8f04282a9a928d8af7a6
+    - name: MiniZombieButcher_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 9
+      spriteId: 0970aeb065168a5499bb6ba4958570c8
+    - name: MiniZombieButcher_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 11
+      spriteId: 568e975546c2fd84b9b2f7fa286cccaf
+    - name: MiniZombieButcher_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 11
+      spriteId: 7154273779df6384680c79fcb0a27d97
+    - name: MiniZombieButcher_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 16
+        height: 12
+      spriteId: 38e5116d16f4f714db66140a32f6641f
+    - name: MiniZombieButcher_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 12
+      spriteId: 22dc16ec9d33f584fa38fc01922342d3
+    - name: MiniZombieButcher_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 7b1b7695804dff4409486d21e14ed852
+    - name: MiniZombieButcher_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 5d186bfe96e67be40b8f456978f1f136
+    - name: MiniZombieButcher_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 209f6951e52231e4fae09f2be0e65a1c
+    - name: MiniZombieButcher_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: eb37523dd3e56cf4f8a6b06ce9330a17
+    - name: MiniZombieButcher_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 18
+        height: 13
+      spriteId: 0f079b35e37368e479d3144f2df2c6d3
+    - name: MiniZombieButcher_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 16
+      spriteId: 09ff8bf636b18fb438061e1e9c979782
+    - name: MiniZombieButcher_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 20
+        height: 14
+      spriteId: 5dbc63f59199dfc42983d89a4385d235
+    - name: MiniZombieButcher_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 21
+        height: 13
+      spriteId: c4dde59a244a1504c9afda4870b44cf4
+    - name: MiniZombieButcher_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 20
+        height: 13
+      spriteId: 2190e88c335419444b53a57fac5eebc3
+    - name: MiniZombieButcher_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 00fe574511866284cb83105ce28cf1be
+    - name: MiniZombieButcher_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 1
+        width: 22
+        height: 13
+      spriteId: d02ae815b6e40474bbea67f40315e625
+    - name: MiniZombieButcher_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 20
+        height: 13
+      spriteId: d60d808c7887330438c65d988c32ed94
+    - name: MiniZombieButcher_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 8a6e4ea0e5d117c47a1bae95cd4232e5
+    - name: MiniZombieButcher_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 6ddf44397e0d77a4692e06d4d62162c7
+    - name: MiniZombieButcher_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 11
+      spriteId: 819434673ad24b2458c4a0a91d6d3248
+    - name: MiniZombieButcher_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 9
+      spriteId: 4e07bcd1da99cb84682781437c82844f
+    - name: MiniZombieButcher_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 7
+      spriteId: 264f24a4c56b7934fa6985dc0634992c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

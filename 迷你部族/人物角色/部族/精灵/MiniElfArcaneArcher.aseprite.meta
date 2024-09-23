@@ -1,0 +1,1562 @@
+fileFormatVersion: 2
+guid: 9d9563796ca906a4ca167104da73dc61
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638625231685417836
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniElfArcaneArcher_Frame_0
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 49
+      width: 14
+      height: 15
+    spriteID: e68375999678e77448b36b8587a85c9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 49}
+  - name: MiniElfArcaneArcher_Frame_1
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 96
+      width: 14
+      height: 14
+    spriteID: 74bf0fef8dcf36347b78bcbe870cbf23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 96}
+  - name: MiniElfArcaneArcher_Frame_2
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 96
+      width: 14
+      height: 14
+    spriteID: 4296e332d84345c4e975eac66b330bb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 96}
+  - name: MiniElfArcaneArcher_Frame_3
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 49
+      width: 14
+      height: 15
+    spriteID: 2eb3dbfdee36b164ebfd1cbe819f0e23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 49}
+  - name: MiniElfArcaneArcher_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 119
+      width: 12
+      height: 16
+    spriteID: 81c6f4c80b83a06459298d1d53872ca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 119}
+  - name: MiniElfArcaneArcher_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 4
+      width: 12
+      height: 14
+    spriteID: 44ab436b06d9a1d4ab6d236e9dec2865
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 4}
+  - name: MiniElfArcaneArcher_Frame_6
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 26
+      width: 13
+      height: 15
+    spriteID: 6219f624050112f43b661969fdb3fcfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 26}
+  - name: MiniElfArcaneArcher_Frame_7
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 49
+      width: 15
+      height: 16
+    spriteID: 47efb546626d0ee4fba3461ab8c29534
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 49}
+  - name: MiniElfArcaneArcher_Frame_8
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 49
+      width: 15
+      height: 14
+    spriteID: 0cb40ac54ab7f7543bc5ac43eef19401
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 49}
+  - name: MiniElfArcaneArcher_Frame_9
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 96
+      width: 13
+      height: 15
+    spriteID: 25c126dd38e99aa43a8ad6ee945049f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 230, y: 96}
+  - name: MiniElfArcaneArcher_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 49
+      width: 14
+      height: 16
+    spriteID: 428be14390b715a45be6a4ebbf5124c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 49}
+  - name: MiniElfArcaneArcher_Frame_11
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 49
+      width: 15
+      height: 16
+    spriteID: 6abd4e973746abb478f2c83ac3b15d1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 49}
+  - name: MiniElfArcaneArcher_Frame_12
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 4
+      width: 15
+      height: 13
+    spriteID: 24841ea3795220844be2dbefc7d2821c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 4}
+  - name: MiniElfArcaneArcher_Frame_13
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 73
+      width: 14
+      height: 15
+    spriteID: 4a8ab6c7c9c32c4449520bf9fb8d3a58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 73}
+  - name: MiniElfArcaneArcher_Frame_14
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 73
+      width: 14
+      height: 15
+    spriteID: f8b89080b0e7b174aa75bb387748ea95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 73}
+  - name: MiniElfArcaneArcher_Frame_15
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 73
+      width: 14
+      height: 15
+    spriteID: c709431fbd1b2184a9b3b02a4094d75c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 73}
+  - name: MiniElfArcaneArcher_Frame_16
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 73
+      width: 14
+      height: 15
+    spriteID: 908d024cb52592646a1f52c31e8b71dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 73}
+  - name: MiniElfArcaneArcher_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 73
+      width: 14
+      height: 15
+    spriteID: e05e4cf670376dd43bdcafcafa8db41d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 73}
+  - name: MiniElfArcaneArcher_Frame_18
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 73
+      width: 14
+      height: 15
+    spriteID: 2a077ca4aab668746ad90af5c80d40c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 73}
+  - name: MiniElfArcaneArcher_Frame_19
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 73
+      width: 14
+      height: 15
+    spriteID: f97f2f97c7f920941bdfd95f6361b3ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 73}
+  - name: MiniElfArcaneArcher_Frame_20
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 73
+      width: 14
+      height: 15
+    spriteID: 982d546fd89b283439ed6183a3d265d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 73}
+  - name: MiniElfArcaneArcher_Frame_21
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 26
+      width: 17
+      height: 15
+    spriteID: 34e939f7d8b929848be38bcd03356b20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 26}
+  - name: MiniElfArcaneArcher_Frame_22
+    originalName: 
+    pivot: {x: 0.42105263, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 26
+      width: 19
+      height: 15
+    spriteID: 4ecdc697f4bbbfb4388d7bdacbdd2d4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 26}
+  - name: MiniElfArcaneArcher_Frame_23
+    originalName: 
+    pivot: {x: 0.3809524, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 26
+      width: 21
+      height: 15
+    spriteID: bcb95178d1769c9449783c40dd43dd9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 26}
+  - name: MiniElfArcaneArcher_Frame_24
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 26
+      width: 18
+      height: 15
+    spriteID: aac07c90400956744bf4870a1840bd7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 26}
+  - name: MiniElfArcaneArcher_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 73
+      width: 14
+      height: 15
+    spriteID: 072424ee60498bc4a90fbc43411e4ac2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 73}
+  - name: MiniElfArcaneArcher_Frame_26
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 202
+      y: 73
+      width: 14
+      height: 15
+    spriteID: 89f09bc6a5ae17042a3f6e34cabf2570
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 202, y: 73}
+  - name: MiniElfArcaneArcher_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 73
+      width: 14
+      height: 15
+    spriteID: a6ebb5c1d1ab57d46acb6982bf55b4dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 73}
+  - name: MiniElfArcaneArcher_Frame_28
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 96
+      width: 14
+      height: 15
+    spriteID: 702f103a2e34d40449765b5f63a3e4ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 96}
+  - name: MiniElfArcaneArcher_Frame_29
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 96
+      width: 14
+      height: 15
+    spriteID: bc168e79396d3cc44a0881e7f0b663b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 96}
+  - name: MiniElfArcaneArcher_Frame_30
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 49
+      width: 15
+      height: 15
+    spriteID: faf25878dfa7c1e4cb0f85d4c8ef2bdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 49}
+  - name: MiniElfArcaneArcher_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 215
+      y: 26
+      width: 16
+      height: 15
+    spriteID: 623669bb6de04914bbfb096471673f40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 215, y: 26}
+  - name: MiniElfArcaneArcher_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 26
+      width: 18
+      height: 15
+    spriteID: abc362397d14f5342ae54570fb720084
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 26}
+  - name: MiniElfArcaneArcher_Frame_33
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 26
+      width: 17
+      height: 15
+    spriteID: 016298f65b6601c4894fd8467eb1d210
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 26}
+  - name: MiniElfArcaneArcher_Frame_34
+    originalName: 
+    pivot: {x: 0.3125, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 49
+      width: 16
+      height: 15
+    spriteID: 26318dbe57d274e4784d843529046f20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 49}
+  - name: MiniElfArcaneArcher_Frame_35
+    originalName: 
+    pivot: {x: 0.3125, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 49
+      width: 16
+      height: 15
+    spriteID: e6ba6f31b50d0c541bd73a8b78e12c3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 49}
+  - name: MiniElfArcaneArcher_Frame_36
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 14
+      height: 15
+    spriteID: d6f3db82dd83a004887d4ebb49ea5c29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 96}
+  - name: MiniElfArcaneArcher_Frame_37
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 49
+      width: 15
+      height: 15
+    spriteID: 9af45db2c11de8542a77cbc1ff180eae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 49}
+  - name: MiniElfArcaneArcher_Frame_38
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 96
+      width: 14
+      height: 15
+    spriteID: 6491950f7501d72489b0ed173b2388c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 96}
+  - name: MiniElfArcaneArcher_Frame_39
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 26
+      width: 17
+      height: 15
+    spriteID: e7432c334b7fe2f42830907d9ee7ea33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 26}
+  - name: MiniElfArcaneArcher_Frame_40
+    originalName: 
+    pivot: {x: 0.4375, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 49
+      width: 16
+      height: 15
+    spriteID: ad677edcce6990a46af2ebaf39554b3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 49}
+  - name: MiniElfArcaneArcher_Frame_41
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 96
+      width: 14
+      height: 15
+    spriteID: 039f85b4c3e26524097692fa763b4bb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 96}
+  - name: MiniElfArcaneArcher_Frame_42
+    originalName: 
+    pivot: {x: 0.4, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 26
+      width: 20
+      height: 15
+    spriteID: 018ae02259ac4504b99490c5bf694787
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 26}
+  - name: MiniElfArcaneArcher_Frame_43
+    originalName: 
+    pivot: {x: 0.375, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 24
+      height: 14
+    spriteID: 6b49208338f95b44e9fcec1383cf8142
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniElfArcaneArcher_Frame_44
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 28
+      height: 11
+    spriteID: c95a89f6a2fdb0d4187c4c6459d361f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 4}
+  - name: MiniElfArcaneArcher_Frame_45
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 96
+      width: 28
+      height: 7
+    spriteID: 94d69dd365f82fa43b2f88877ca28f41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 96}
+  - name: MiniElfArcaneArcher_Frame_46
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 96
+      width: 28
+      height: 7
+    spriteID: ba2133b9d7ceebe44a4ad1462d87ea0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 96}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1654493983
+    name: MiniElfArcaneArcher
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniElfArcaneArcher_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: e68375999678e77448b36b8587a85c9f
+    - name: MiniElfArcaneArcher_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 74bf0fef8dcf36347b78bcbe870cbf23
+    - name: MiniElfArcaneArcher_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 4296e332d84345c4e975eac66b330bb2
+    - name: MiniElfArcaneArcher_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 2eb3dbfdee36b164ebfd1cbe819f0e23
+    - name: MiniElfArcaneArcher_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 16
+      spriteId: 81c6f4c80b83a06459298d1d53872ca2
+    - name: MiniElfArcaneArcher_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 44ab436b06d9a1d4ab6d236e9dec2865
+    - name: MiniElfArcaneArcher_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 15
+      spriteId: 6219f624050112f43b661969fdb3fcfc
+    - name: MiniElfArcaneArcher_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 16
+      spriteId: 47efb546626d0ee4fba3461ab8c29534
+    - name: MiniElfArcaneArcher_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 14
+      spriteId: 0cb40ac54ab7f7543bc5ac43eef19401
+    - name: MiniElfArcaneArcher_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 15
+      spriteId: 25c126dd38e99aa43a8ad6ee945049f5
+    - name: MiniElfArcaneArcher_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 16
+      spriteId: 428be14390b715a45be6a4ebbf5124c4
+    - name: MiniElfArcaneArcher_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 16
+      spriteId: 6abd4e973746abb478f2c83ac3b15d1a
+    - name: MiniElfArcaneArcher_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 13
+      spriteId: 24841ea3795220844be2dbefc7d2821c
+    - name: MiniElfArcaneArcher_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 4a8ab6c7c9c32c4449520bf9fb8d3a58
+    - name: MiniElfArcaneArcher_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: f8b89080b0e7b174aa75bb387748ea95
+    - name: MiniElfArcaneArcher_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: c709431fbd1b2184a9b3b02a4094d75c
+    - name: MiniElfArcaneArcher_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 908d024cb52592646a1f52c31e8b71dc
+    - name: MiniElfArcaneArcher_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 15
+      spriteId: e05e4cf670376dd43bdcafcafa8db41d
+    - name: MiniElfArcaneArcher_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 2a077ca4aab668746ad90af5c80d40c5
+    - name: MiniElfArcaneArcher_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 15
+      spriteId: f97f2f97c7f920941bdfd95f6361b3ba
+    - name: MiniElfArcaneArcher_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 982d546fd89b283439ed6183a3d265d5
+    - name: MiniElfArcaneArcher_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 17
+        height: 15
+      spriteId: 34e939f7d8b929848be38bcd03356b20
+    - name: MiniElfArcaneArcher_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 19
+        height: 15
+      spriteId: 4ecdc697f4bbbfb4388d7bdacbdd2d4d
+    - name: MiniElfArcaneArcher_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 21
+        height: 15
+      spriteId: bcb95178d1769c9449783c40dd43dd9d
+    - name: MiniElfArcaneArcher_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 18
+        height: 15
+      spriteId: aac07c90400956744bf4870a1840bd7a
+    - name: MiniElfArcaneArcher_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 072424ee60498bc4a90fbc43411e4ac2
+    - name: MiniElfArcaneArcher_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 89f09bc6a5ae17042a3f6e34cabf2570
+    - name: MiniElfArcaneArcher_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 15
+      spriteId: a6ebb5c1d1ab57d46acb6982bf55b4dc
+    - name: MiniElfArcaneArcher_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 702f103a2e34d40449765b5f63a3e4ee
+    - name: MiniElfArcaneArcher_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: bc168e79396d3cc44a0881e7f0b663b9
+    - name: MiniElfArcaneArcher_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 15
+      spriteId: faf25878dfa7c1e4cb0f85d4c8ef2bdc
+    - name: MiniElfArcaneArcher_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 15
+      spriteId: 623669bb6de04914bbfb096471673f40
+    - name: MiniElfArcaneArcher_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 18
+        height: 15
+      spriteId: abc362397d14f5342ae54570fb720084
+    - name: MiniElfArcaneArcher_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 1
+        width: 17
+        height: 15
+      spriteId: 016298f65b6601c4894fd8467eb1d210
+    - name: MiniElfArcaneArcher_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 16
+        height: 15
+      spriteId: 26318dbe57d274e4784d843529046f20
+    - name: MiniElfArcaneArcher_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 16
+        height: 15
+      spriteId: e6ba6f31b50d0c541bd73a8b78e12c3d
+    - name: MiniElfArcaneArcher_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: d6f3db82dd83a004887d4ebb49ea5c29
+    - name: MiniElfArcaneArcher_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 15
+        height: 15
+      spriteId: 9af45db2c11de8542a77cbc1ff180eae
+    - name: MiniElfArcaneArcher_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 6491950f7501d72489b0ed173b2388c5
+    - name: MiniElfArcaneArcher_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 1
+        width: 17
+        height: 15
+      spriteId: e7432c334b7fe2f42830907d9ee7ea33
+    - name: MiniElfArcaneArcher_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 16
+        height: 15
+      spriteId: ad677edcce6990a46af2ebaf39554b3c
+    - name: MiniElfArcaneArcher_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 039f85b4c3e26524097692fa763b4bb5
+    - name: MiniElfArcaneArcher_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 20
+        height: 15
+      spriteId: 018ae02259ac4504b99490c5bf694787
+    - name: MiniElfArcaneArcher_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 24
+        height: 14
+      spriteId: 6b49208338f95b44e9fcec1383cf8142
+    - name: MiniElfArcaneArcher_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 1
+        width: 28
+        height: 11
+      spriteId: c95a89f6a2fdb0d4187c4c6459d361f1
+    - name: MiniElfArcaneArcher_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 1
+        width: 28
+        height: 7
+      spriteId: 94d69dd365f82fa43b2f88877ca28f41
+    - name: MiniElfArcaneArcher_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 1
+        width: 28
+        height: 7
+      spriteId: ba2133b9d7ceebe44a4ad1462d87ea0e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

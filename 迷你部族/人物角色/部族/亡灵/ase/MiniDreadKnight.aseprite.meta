@@ -1,0 +1,1241 @@
+fileFormatVersion: 2
+guid: e980f06551e620940884fa589d21660a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniDreadKnight_Frame_0
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 59
+      width: 15
+      height: 19
+    spriteID: ce4fd9270f5d67345a136d800e462e06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 59}
+  - name: MiniDreadKnight_Frame_1
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 86
+      width: 15
+      height: 19
+    spriteID: 6af2257e3602951498eed988c32b2984
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 86}
+  - name: MiniDreadKnight_Frame_2
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 56
+      width: 15
+      height: 18
+    spriteID: 5901852bab4ae9a41b8b24a4b7969b58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 56}
+  - name: MiniDreadKnight_Frame_3
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 82
+      width: 15
+      height: 18
+    spriteID: f69968e7f39b73949929d5f295fcb778
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 82}
+  - name: MiniDreadKnight_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 108
+      width: 12
+      height: 20
+    spriteID: 77a7345a7baddf649ad989c3bfe89539
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 108}
+  - name: MiniDreadKnight_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 157
+      width: 12
+      height: 19
+    spriteID: c579d3a6ac8a80748888fc0bad6ad873
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 157}
+  - name: MiniDreadKnight_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 157
+      width: 14
+      height: 19
+    spriteID: 81ceb0e1792abca46b5b99ba94fdd015
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 157}
+  - name: MiniDreadKnight_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 112
+      width: 16
+      height: 20
+    spriteID: 115bc1a9362d3334db698808ddd1c091
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 112}
+  - name: MiniDreadKnight_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 168
+      width: 16
+      height: 19
+    spriteID: fdc5c5f95a8b22944a0995048bdd45b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 168}
+  - name: MiniDreadKnight_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 184
+      width: 14
+      height: 19
+    spriteID: 197e2232727ae4c479d4dd09cd7530c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 184}
+  - name: MiniDreadKnight_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 140
+      width: 16
+      height: 20
+    spriteID: 0a8d74970d0fbae4cbd90fedb18d7a1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 140}
+  - name: MiniDreadKnight_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 21
+    spriteID: bdcb4d6e33732bd46bfa775196341253
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniDreadKnight_Frame_12
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 108
+      width: 15
+      height: 18
+    spriteID: 3ca47530d58d6d747b4f6cc5658dd2be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 108}
+  - name: MiniDreadKnight_Frame_13
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 113
+      width: 15
+      height: 19
+    spriteID: c18a3b99ce1ca204ba34a234815805ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 113}
+  - name: MiniDreadKnight_Frame_14
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 15
+      height: 19
+    spriteID: cfe0647359c2f394fb247e7d33670bc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: MiniDreadKnight_Frame_15
+    originalName: 
+    pivot: {x: 0.6, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 222
+      width: 15
+      height: 20
+    spriteID: fe176785fd2221d4fbcfd38377f0fec0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 222}
+  - name: MiniDreadKnight_Frame_16
+    originalName: 
+    pivot: {x: 0.64705884, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 17
+      height: 19
+    spriteID: 5e3ffc0f7b78b5948af5dc5de8db72ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: MiniDreadKnight_Frame_17
+    originalName: 
+    pivot: {x: 0.2631579, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 4
+      width: 19
+      height: 17
+    spriteID: e61f1ca383b346d478acb7b271f76815
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 4}
+  - name: MiniDreadKnight_Frame_18
+    originalName: 
+    pivot: {x: 0.25, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 20
+      height: 15
+    spriteID: 0a61794584df8bf429a8196484999cf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: MiniDreadKnight_Frame_19
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 134
+      width: 18
+      height: 15
+    spriteID: 61f28a6468c417a4881168062d723db4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 134}
+  - name: MiniDreadKnight_Frame_20
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 167
+      width: 15
+      height: 19
+    spriteID: abbc5b8c0666b984b8b9bedbcc56fc11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 167}
+  - name: MiniDreadKnight_Frame_21
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 211
+      width: 14
+      height: 19
+    spriteID: b30585c15028fe4499cce59402d309d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 211}
+  - name: MiniDreadKnight_Frame_22
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 27
+      width: 14
+      height: 19
+    spriteID: b54c22ad6e8cf5f46819db522a17841d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 27}
+  - name: MiniDreadKnight_Frame_23
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 54
+      width: 14
+      height: 19
+    spriteID: f5e61bcdbb808924cba69e783e75dfca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 54}
+  - name: MiniDreadKnight_Frame_24
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 81
+      width: 14
+      height: 19
+    spriteID: 998622bd865dec34a8a4193b80fcdd2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 81}
+  - name: MiniDreadKnight_Frame_25
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 31
+      width: 17
+      height: 19
+    spriteID: 4e1aab341389d974ebd860cbe9150944
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 31}
+  - name: MiniDreadKnight_Frame_26
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 58
+      width: 17
+      height: 19
+    spriteID: 96ab0654b0b4c0b40b6d2b9296e9237b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 58}
+  - name: MiniDreadKnight_Frame_27
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 85
+      width: 17
+      height: 19
+    spriteID: 901461cd6fa7d8a4a9d81a082f016a39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 85}
+  - name: MiniDreadKnight_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 195
+      width: 16
+      height: 19
+    spriteID: feebb48992cac0540b7206891a6a6092
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 195}
+  - name: MiniDreadKnight_Frame_29
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 194
+      width: 15
+      height: 19
+    spriteID: cd20a40740711d34e98d686f0151da97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 194}
+  - name: MiniDreadKnight_Frame_30
+    originalName: 
+    pivot: {x: 0.6875, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 33
+      width: 16
+      height: 18
+    spriteID: b8058f9fe4f78c644887ee46288deb89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 33}
+  - name: MiniDreadKnight_Frame_31
+    originalName: 
+    pivot: {x: 0.6, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 221
+      width: 15
+      height: 19
+    spriteID: d3fdae067d8cc394b9e749f362ab43da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 221}
+  - name: MiniDreadKnight_Frame_32
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 29
+      width: 15
+      height: 19
+    spriteID: 0cfba8773e6a0534083b08d3140f7ee1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 29}
+  - name: MiniDreadKnight_Frame_33
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 204
+      width: 14
+      height: 14
+    spriteID: 832c7c27873122c4abb01a8aeccc2820
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 204}
+  - name: MiniDreadKnight_Frame_34
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 238
+      width: 18
+      height: 13
+    spriteID: 4a48a5ce1f367824585982073b9a3565
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 238}
+  - name: MiniDreadKnight_Frame_35
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 136
+      width: 18
+      height: 13
+    spriteID: 8497cf33f1ed05a4f81fc947ce9767c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 136}
+  - name: MiniDreadKnight_Frame_36
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 184
+      width: 18
+      height: 12
+    spriteID: 10ac4600e2a17e742a272380126e990c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 184}
+  - name: MiniDreadKnight_Frame_37
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 226
+      width: 18
+      height: 9
+    spriteID: dfa7f8f3b7f43764b861b388aa45e8a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 226}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2026324190
+    name: MiniDreadKnight
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniDreadKnight_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 19
+      spriteId: ce4fd9270f5d67345a136d800e462e06
+    - name: MiniDreadKnight_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 19
+      spriteId: 6af2257e3602951498eed988c32b2984
+    - name: MiniDreadKnight_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 18
+      spriteId: 5901852bab4ae9a41b8b24a4b7969b58
+    - name: MiniDreadKnight_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 18
+      spriteId: f69968e7f39b73949929d5f295fcb778
+    - name: MiniDreadKnight_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 20
+      spriteId: 77a7345a7baddf649ad989c3bfe89539
+    - name: MiniDreadKnight_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 19
+      spriteId: c579d3a6ac8a80748888fc0bad6ad873
+    - name: MiniDreadKnight_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 19
+      spriteId: 81ceb0e1792abca46b5b99ba94fdd015
+    - name: MiniDreadKnight_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 20
+      spriteId: 115bc1a9362d3334db698808ddd1c091
+    - name: MiniDreadKnight_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 19
+      spriteId: fdc5c5f95a8b22944a0995048bdd45b8
+    - name: MiniDreadKnight_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 19
+      spriteId: 197e2232727ae4c479d4dd09cd7530c7
+    - name: MiniDreadKnight_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 20
+      spriteId: 0a8d74970d0fbae4cbd90fedb18d7a1f
+    - name: MiniDreadKnight_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 21
+      spriteId: bdcb4d6e33732bd46bfa775196341253
+    - name: MiniDreadKnight_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 18
+      spriteId: 3ca47530d58d6d747b4f6cc5658dd2be
+    - name: MiniDreadKnight_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 19
+      spriteId: c18a3b99ce1ca204ba34a234815805ce
+    - name: MiniDreadKnight_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 19
+      spriteId: cfe0647359c2f394fb247e7d33670bc3
+    - name: MiniDreadKnight_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 15
+        height: 20
+      spriteId: fe176785fd2221d4fbcfd38377f0fec0
+    - name: MiniDreadKnight_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 1
+        width: 17
+        height: 19
+      spriteId: 5e3ffc0f7b78b5948af5dc5de8db72ed
+    - name: MiniDreadKnight_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 19
+        height: 17
+      spriteId: e61f1ca383b346d478acb7b271f76815
+    - name: MiniDreadKnight_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 20
+        height: 15
+      spriteId: 0a61794584df8bf429a8196484999cf7
+    - name: MiniDreadKnight_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 18
+        height: 15
+      spriteId: 61f28a6468c417a4881168062d723db4
+    - name: MiniDreadKnight_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 19
+      spriteId: abbc5b8c0666b984b8b9bedbcc56fc11
+    - name: MiniDreadKnight_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 19
+      spriteId: b30585c15028fe4499cce59402d309d8
+    - name: MiniDreadKnight_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 19
+      spriteId: b54c22ad6e8cf5f46819db522a17841d
+    - name: MiniDreadKnight_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 19
+      spriteId: f5e61bcdbb808924cba69e783e75dfca
+    - name: MiniDreadKnight_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 19
+      spriteId: 998622bd865dec34a8a4193b80fcdd2e
+    - name: MiniDreadKnight_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 17
+        height: 19
+      spriteId: 4e1aab341389d974ebd860cbe9150944
+    - name: MiniDreadKnight_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 17
+        height: 19
+      spriteId: 96ab0654b0b4c0b40b6d2b9296e9237b
+    - name: MiniDreadKnight_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 17
+        height: 19
+      spriteId: 901461cd6fa7d8a4a9d81a082f016a39
+    - name: MiniDreadKnight_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 19
+      spriteId: feebb48992cac0540b7206891a6a6092
+    - name: MiniDreadKnight_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 19
+      spriteId: cd20a40740711d34e98d686f0151da97
+    - name: MiniDreadKnight_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 1
+        width: 16
+        height: 18
+      spriteId: b8058f9fe4f78c644887ee46288deb89
+    - name: MiniDreadKnight_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 15
+        height: 19
+      spriteId: d3fdae067d8cc394b9e749f362ab43da
+    - name: MiniDreadKnight_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 19
+      spriteId: 0cfba8773e6a0534083b08d3140f7ee1
+    - name: MiniDreadKnight_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 832c7c27873122c4abb01a8aeccc2820
+    - name: MiniDreadKnight_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 18
+        height: 13
+      spriteId: 4a48a5ce1f367824585982073b9a3565
+    - name: MiniDreadKnight_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 18
+        height: 13
+      spriteId: 8497cf33f1ed05a4f81fc947ce9767c0
+    - name: MiniDreadKnight_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 18
+        height: 12
+      spriteId: 10ac4600e2a17e742a272380126e990c
+    - name: MiniDreadKnight_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 18
+        height: 9
+      spriteId: dfa7f8f3b7f43764b861b388aa45e8a0
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

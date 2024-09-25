@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class SpeedSkill : BasicSkill
 {
-
+    public void UseSkillToArcher(Archer player)
+    {
+        if(player.GetMoveSpeed() < 4)
+        {
+            player.MoveSpeedBuff += Buff;
+            StartCoroutine(OnTargetBuff(player));
+        }
+    }
     public void UseSkillToTarget(BasicPlayer player)
     {
         player.MoveSpeedBuff += Buff;

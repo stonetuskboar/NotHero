@@ -8,5 +8,9 @@ public class HpSkill : BasicSkill
     {
         skillManager.CreateMagicEffectAt(targetPlayer.transform);
         targetPlayer.AddHp(buffValue * targetPlayer.MaxHp);
+
+        BasicPlayer priest = skillManager.PlayerManager.FindPlayerByType(PlayerType.priest);
+        skillManager.CreateMagicEffectAt(priest.transform);
+        priest.AddHp(0.05f * SkillLevel * priest.MaxHp);
     }
 }

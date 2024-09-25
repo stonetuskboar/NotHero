@@ -10,11 +10,11 @@ public class Fighter : BasicPlayer
     }
     public override void Upgrade()
     {
-        MaxHp *= 1.1f;
-        nowHp += MaxHp * 0.1f;
-        moveSpeed *= 1.05f;
-        attackDamage *= 1.05f;
-        attackSpeed *= 1.1f;
+        MaxHp += BasicHp * 0.1f;
+        nowHp += BasicHp * 0.1f;
+        moveSpeed += BasicMoveSpeed * 0.05f;
+        attackDamage += BasicAttackDamage * 0.05f;
+        attackSpeed += BasicAttackSpeed * 0.1f;
     }
 }
 

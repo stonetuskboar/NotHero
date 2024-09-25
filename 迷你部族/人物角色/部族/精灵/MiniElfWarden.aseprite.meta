@@ -110,8 +110,8 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
-    customPivotPosition: {x: 0.5, y: 0.5}
+    defaultPivotAlignment: 9
+    customPivotPosition: {x: 0.5, y: 0.05}
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
@@ -123,8 +123,8 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
-    customPivotPosition: {x: 0.5, y: 0.5}
+    defaultPivotAlignment: 9
+    customPivotPosition: {x: 0.5, y: 0.05}
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
@@ -132,7 +132,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638625231726208066
+  platformSettingsDirtyTick: 638628215397884142
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -158,7 +158,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: MiniElfWarden_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -178,7 +178,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 185}
   - name: MiniElfWarden_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -198,7 +198,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 211}
   - name: MiniElfWarden_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -218,7 +218,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 4}
   - name: MiniElfWarden_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -238,7 +238,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 30}
   - name: MiniElfWarden_Frame_4
     originalName: 
-    pivot: {x: 0.4615385, y: -0.05263158}
+    pivot: {x: 0.4615385, y: 0.03157895}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -258,7 +258,7 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 47}
   - name: MiniElfWarden_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -278,7 +278,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 56}
   - name: MiniElfWarden_Frame_6
     originalName: 
-    pivot: {x: 0.4615385, y: -0.055555556}
+    pivot: {x: 0.4615385, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -298,7 +298,7 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 74}
   - name: MiniElfWarden_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: -0.05263158}
+    pivot: {x: 0.5, y: 0.03157895}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -318,7 +318,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 131}
   - name: MiniElfWarden_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -338,7 +338,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 82}
   - name: MiniElfWarden_Frame_9
     originalName: 
-    pivot: {x: 0.4615385, y: -0.055555556}
+    pivot: {x: 0.4615385, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -358,7 +358,7 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 100}
   - name: MiniElfWarden_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: -0.05263158}
+    pivot: {x: 0.5, y: 0.03157895}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -378,7 +378,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 158}
   - name: MiniElfWarden_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: -0.05}
+    pivot: {x: 0.5, y: 0.030000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -398,7 +398,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 77}
   - name: MiniElfWarden_Frame_12
     originalName: 
-    pivot: {x: 0.4666667, y: -0.055555556}
+    pivot: {x: 0.4666667, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -418,7 +418,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 105}
   - name: MiniElfWarden_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -438,7 +438,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 108}
   - name: MiniElfWarden_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -458,7 +458,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 134}
   - name: MiniElfWarden_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -478,7 +478,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 160}
   - name: MiniElfWarden_Frame_16
     originalName: 
-    pivot: {x: 0.47368422, y: -0.055555556}
+    pivot: {x: 0.47368422, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -498,7 +498,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 29}
   - name: MiniElfWarden_Frame_17
     originalName: 
-    pivot: {x: 0.5263158, y: -0.055555556}
+    pivot: {x: 0.5263158, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -518,7 +518,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 55}
   - name: MiniElfWarden_Frame_18
     originalName: 
-    pivot: {x: 0.57894737, y: -0.055555556}
+    pivot: {x: 0.57894737, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -538,7 +538,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 81}
   - name: MiniElfWarden_Frame_19
     originalName: 
-    pivot: {x: 0.31578946, y: -0.055555556}
+    pivot: {x: 0.31578946, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -558,7 +558,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 107}
   - name: MiniElfWarden_Frame_20
     originalName: 
-    pivot: {x: 0.31578946, y: -0.055555556}
+    pivot: {x: 0.31578946, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -578,7 +578,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 133}
   - name: MiniElfWarden_Frame_21
     originalName: 
-    pivot: {x: 0.31578946, y: -0.055555556}
+    pivot: {x: 0.31578946, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -598,7 +598,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 159}
   - name: MiniElfWarden_Frame_22
     originalName: 
-    pivot: {x: 0.5263158, y: -0.055555556}
+    pivot: {x: 0.5263158, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -618,7 +618,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 185}
   - name: MiniElfWarden_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -638,7 +638,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 186}
   - name: MiniElfWarden_Frame_24
     originalName: 
-    pivot: {x: 0.53846157, y: -0.055555556}
+    pivot: {x: 0.53846157, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -658,7 +658,7 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 126}
   - name: MiniElfWarden_Frame_25
     originalName: 
-    pivot: {x: 0.5833334, y: -0.055555556}
+    pivot: {x: 0.5833334, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -678,7 +678,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 74}
   - name: MiniElfWarden_Frame_26
     originalName: 
-    pivot: {x: 0.5833334, y: -0.055555556}
+    pivot: {x: 0.5833334, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -698,7 +698,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 100}
   - name: MiniElfWarden_Frame_27
     originalName: 
-    pivot: {x: 0.6666667, y: -0.055555556}
+    pivot: {x: 0.6666667, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -718,7 +718,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 126}
   - name: MiniElfWarden_Frame_28
     originalName: 
-    pivot: {x: 0.5833334, y: -0.055555556}
+    pivot: {x: 0.5833334, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -738,7 +738,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 47}
   - name: MiniElfWarden_Frame_29
     originalName: 
-    pivot: {x: 0.53846157, y: -0.055555556}
+    pivot: {x: 0.53846157, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -758,7 +758,7 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 152}
   - name: MiniElfWarden_Frame_30
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -778,7 +778,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 212}
   - name: MiniElfWarden_Frame_31
     originalName: 
-    pivot: {x: 0.57894737, y: -0.055555556}
+    pivot: {x: 0.57894737, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -798,7 +798,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 211}
   - name: MiniElfWarden_Frame_32
     originalName: 
-    pivot: {x: 0.5625, y: -0.055555556}
+    pivot: {x: 0.5625, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -818,7 +818,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 25}
   - name: MiniElfWarden_Frame_33
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -838,7 +838,7 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 4}
   - name: MiniElfWarden_Frame_34
     originalName: 
-    pivot: {x: 0.5, y: -0.055555556}
+    pivot: {x: 0.5, y: 0.033333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -858,7 +858,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 51}
   - name: MiniElfWarden_Frame_35
     originalName: 
-    pivot: {x: 0.40909094, y: -0.05882353}
+    pivot: {x: 0.40909094, y: 0.03529412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -878,7 +878,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: MiniElfWarden_Frame_36
     originalName: 
-    pivot: {x: 0.5185185, y: -0.07692308}
+    pivot: {x: 0.5185185, y: 0.04615385}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -898,7 +898,7 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 4}
   - name: MiniElfWarden_Frame_37
     originalName: 
-    pivot: {x: 0.5357143, y: -0.11111111}
+    pivot: {x: 0.5357143, y: 0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -918,7 +918,7 @@ ScriptedImporter:
     uvTransform: {x: 91, y: 30}
   - name: MiniElfWarden_Frame_38
     originalName: 
-    pivot: {x: 0.5357143, y: -0.14285715}
+    pivot: {x: 0.5357143, y: 0.085714296}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:

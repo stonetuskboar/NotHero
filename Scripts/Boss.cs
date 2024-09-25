@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Boss :BasicEnemy
 {
-    public float LossHp = 0;
-    public float LossHpLimit;
+    //public float LossHp = 0;
+    //public float LossHpLimit;
     public float walkWaitTime = 0f;
     public float SpellLeftTime = 0;
     public float fleeLeftTIme = 0;
@@ -18,17 +18,18 @@ public class Boss :BasicEnemy
     public float idleTime = 0;
     public float attackTime = 0;
 
+
     public bool isChargeBack = false;
     public Vector3 fleeposition;
     // Start is called before the first frame update
-    public override void OnGetDamage(float damage)
-    {
-        LossHp += damage;
-    }
+    //public override void OnGetDamage(float damage)
+    //{
+    //    LossHp += damage;
+    //}
 
     public override void AfterInit()
     {
-        LossHpLimit = MaxHp / 4;
+        //LossHpLimit = MaxHp / 4;
     }
 
     public override void ChangeToAttackState()
@@ -53,7 +54,6 @@ public class Boss :BasicEnemy
         else if (rand > 100)
         {
             animator.SetBool("attack", true);
-            attackLeftTime += Random.Range(0.5f,2f);
             nowState = PlayerAnimation.attack;
         }
         else
@@ -63,8 +63,7 @@ public class Boss :BasicEnemy
                 SpellLeftTime = 12f;
                 animator.SetBool("spell", true);
                 nowState = PlayerAnimation.attack;
-                attackLeftTime += 1.5f;
-                walkWaitTime = 1.5f;
+                attackLeftTime += 1f;
             }
 
         }
@@ -122,15 +121,12 @@ public class Boss :BasicEnemy
 
     public void ChargeStateEnd()
     {
-
-
         Vector3 distance = targetPlayer.transform.position - transform.position;
-
         rb2D.velocity = Vector3.zero;
         isChargeBack = false;
         nowState = PlayerAnimation.idle;
         animator.SetBool("charge", false);
-        chargetime = 8f;
+        chargetime = 6f;
         fleeposition = transform.position - distance.normalized * range;
         fleetime = 3f;
         fleeLeftTIme += 6f;
@@ -149,7 +145,6 @@ public class Boss :BasicEnemy
 
     public void ChangeToFleeState()
     {
-
         nowState = PlayerAnimation.flee;
         animator.SetBool("walk", true);
     }
@@ -245,8 +240,13 @@ public class Boss :BasicEnemy
         rb2D.velocity = Vector2.zero;
         rb2D.simulated = false;
         nowState = PlayerAnimation.death;
+        animator.SetBool("hurt", true);
         animator.SetBool("death", true);
         animator.SetBool("attack", false);
         animator.SetBool("walk", false);
     }
+
+    //public override void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //}
 }

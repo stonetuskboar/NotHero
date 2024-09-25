@@ -14,9 +14,13 @@ public class BasicPlayer : MonoBehaviour
     public PlayerType PlayerType;
     public float nowHp;
     public float MaxHp;
+    public float BasicHp;
     public float moveSpeed;
+    public float BasicMoveSpeed;
     public float attackSpeed;
+    public float BasicAttackSpeed;
     public float attackDamage;
+    public float BasicAttackDamage;
     public float defense;
     public float toughness;
     public float range;
@@ -42,6 +46,10 @@ public class BasicPlayer : MonoBehaviour
     public BasicBuffDelegate MoveSpeedBuff = null;
     public virtual void Start()
     {
+        BasicHp = MaxHp;
+        BasicMoveSpeed = moveSpeed;
+        BasicAttackDamage = attackDamage;
+        BasicAttackSpeed = attackSpeed;
         nowState = PlayerAnimation.idle;
         sr = GetComponent<SpriteRenderer>();
         playerMaterial = sr.material;
@@ -56,6 +64,10 @@ public class BasicPlayer : MonoBehaviour
             targetEnemy = enemyManager.GetClosestEnemy(transform);
             if (targetEnemy == null)
             {
+                if(nowState == PlayerAnimation.walk)
+                {
+                    WalkStateEnd();
+                }
                 return;
             }
         }
@@ -100,7 +112,14 @@ public class BasicPlayer : MonoBehaviour
     }
     public void AddHp(float addHp)
     {
-        nowHp += addHp;
+        if (nowHp + addHp >= MaxHp)
+        {
+            nowHp = MaxHp;
+        }
+        else
+        {
+            nowHp += addHp;
+        }
         lifeBar.fillAmount = nowHp / MaxHp;
     }
 
@@ -112,32 +131,26 @@ public class BasicPlayer : MonoBehaviour
 
     public virtual void DealDamanaToEnemey()
     {
-
         if (IsTargetOk() == true)
         {
             float realRange = range + targetEnemy.AdditionalSize;
             Vector2 distance = targetEnemy.transform.position - transform.position;
-            if(distance.magnitude < (realRange*1.5f) )
+            if(distance.magnitude < (realRange*1.5f))
             {
                 AudioManager.instance.playPlayerHitSound();
                 Vector2 rbForce = (targetEnemy.transform.position - transform.position).normalized * attackForce;
                 targetEnemy.GetDamage(GetAttackDamage(), rbForce, AttackType.Melee, this);
-                if (StabAmount > 0)
+                OnDealMeleeDamage();
+                if (StabAmount > 0 && IsTargetOk() == true)
                 {
                     StabAmount--;
                     animator.Play("attack", 0, StabAnimationProgress);
                 }
-                OnDealMeleeDamage();
+                else
+                {
+                    StabAmount = 0;
+                }
             }
-            else
-            {
-                AttackStateEnd();
-            }
-
-        }
-        else
-        {
-            AttackStateEnd();
         }
     }
 
@@ -148,7 +161,6 @@ public class BasicPlayer : MonoBehaviour
 
     public virtual void Upgrade()
     {
-        moveSpeed *= 1.05f;
     }
     public virtual void GetDamage(float damage, Vector2 force, AttackType type , BasicEnemy enemy)
     {
@@ -160,6 +172,10 @@ public class BasicPlayer : MonoBehaviour
         }
         if(damage > toughness)
         {
+            if (type == AttackType.Melee)
+            {
+                targetEnemy = enemy;
+            }
             rb2D.AddForce(force, ForceMode2D.Impulse);
             ChangeToHurtState();
         }

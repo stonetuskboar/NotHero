@@ -18,9 +18,9 @@ public class EnemyManager : MonoBehaviour
     public GameObject archeryEnemyPrefab;
     public EnemySo enemySo;
     private int enemyDeathAmount = 0;
-    private int nowEnemyWave = 0;
+    public int nowEnemyWave = 0;
     private int nowCreateEnemys = 0;
-    private float enmeyWaveTimes = 10f;
+    private float enmeyWaveTimes = 15f;
     private float enemyCreateLeftTime = 0.5f;
     public Camera MainCamera;
     private bool isTraveling = false;
@@ -38,14 +38,21 @@ public class EnemyManager : MonoBehaviour
     public void Update()
     {
         enemyCreateLeftTime -= Time.deltaTime;
-        if (enemyCreateLeftTime < 0)
+        if (enemyCreateLeftTime < 0 || AliveEnemyList.Count == 0)
         {
             if(isTraveling == true)
             {
                 enemyCreateLeftTime = 3f;
-                if (AliveEnemyList.Count <= 1)
+                if (AliveEnemyList.Count <= 3)
                 {
-                    CreateEnemy(Random.Range(0, 2));
+                    if(nowEnemyWave < 4)
+                    {
+                        CreateEnemy(Random.Range(0, 2));
+                    }
+                    else
+                    {
+                        CreateEnemy(Random.Range(0, 3));
+                    }
                 }
             }
             else
@@ -56,7 +63,6 @@ public class EnemyManager : MonoBehaviour
                     CreateEnemysByWave();
                 }
             }
-
         }
     }
     public void CreateFiveEnemy(Vector3 position)
@@ -67,11 +73,9 @@ public class EnemyManager : MonoBehaviour
         for(int i = 0; i < FiveEnemyPositions.Count; i++)
         {
             int rand = Random.Range(0, 2);
-            BasicEnemy enemy =  GetEnemyFromPool(rand);
-            enemy.transform.position = position + FiveEnemyPositions[i];
+            CreateEnemyAt(rand , position + FiveEnemyPositions[i]);
         }
-        BasicEnemy elite = GetEnemyFromPool(2);
-        elite.transform.position = position;
+        CreateEnemyAt(2, position);
     }
     public void CreateEvilBlurst(Transform transform)
     {
@@ -90,7 +94,7 @@ public class EnemyManager : MonoBehaviour
 
     public void DecreaseEnemyWaveTime()
     {
-        if(enmeyWaveTimes >= 2f)
+        if(enmeyWaveTimes >= 4f)
         {
             enmeyWaveTimes -= 1f;
         }
@@ -113,9 +117,16 @@ public class EnemyManager : MonoBehaviour
         BasicEnemy enemy = GetEnemyFromPool(enemyId);
         AliveEnemyList.Add(enemy);
         Vector3 screenTopRight = MainCamera.ViewportToWorldPoint(new Vector3(1, 1, MainCamera.nearClipPlane));
-        float x = screenTopRight.x + 1f; // 在屏幕右侧生成
+        float x = screenTopRight.x + Random.Range(1f,3f); // 在屏幕右侧生成
         float y = Random.Range(-2,2);
         enemy.transform.position = new Vector3(x,y, 0);
+        enemy.FreshFromPool();
+    }
+    public void CreateEnemyAt(int enemyId , Vector3 position)
+    {
+        BasicEnemy enemy = GetEnemyFromPool(enemyId);
+        AliveEnemyList.Add(enemy);
+        enemy.transform.position = position;
         enemy.FreshFromPool();
     }
 
@@ -141,6 +152,7 @@ public class EnemyManager : MonoBehaviour
         GameObject tmp;
         this.enemyWholeAmount++;
         tmp = Instantiate(PrefabList[enemyId], transform);
+        tmp.SetActive(false);
         tmp.name = tmp.name.Replace("(Clone)", this.enemyWholeAmount.ToString());
         BasicEnemy enemy = tmp.GetComponent<BasicEnemy>();
         enemy.Init(enemySo.EnemyDatas[enemyId], PlayerManager, this , damageTextPool);
@@ -185,21 +197,29 @@ public class EnemyManager : MonoBehaviour
         for (int i = 0; i < AliveEnemyList.Count; i++)
         {
             distance = (AliveEnemyList[i].transform.position - transform.position).magnitude;
-            if (distance < MinDistance)
+            if (distance < MinDistance && AliveEnemyList[i].IsAlive == true)
             {
                 MinDistance = distance;
                 index = i;
             }
         }
-        return AliveEnemyList[index];
+        if(index < 0 )
+        {
+            return null;
+        }
+        else
+        {
+            return AliveEnemyList[index];
+        }
     }
     public void UnPoolThis(BasicEnemy basicEnemy)
     {
         enemyDeathAmount++;
         if (isTraveling == true)
         {
-            if (enemyDeathAmount > 10 )
+            if (nowCreateEnemys > 10 )
             {
+                enemyDeathAmount = 0;
                 nowCreateEnemys = 0;
                 isTraveling = false;
             }
@@ -207,17 +227,21 @@ public class EnemyManager : MonoBehaviour
         else if (enemyDeathAmount >= enemySo.EnemyWaves[nowEnemyWave].enemyAmount)
         {
             enemyCreateLeftTime = 0f;
+            enemyDeathAmount = 0;
             nowCreateEnemys = 0;
             isTraveling = true;
             nowEnemyWave++;
-            enemyDeathAmount = 0;
+            if(nowEnemyWave == 4)
+            {
+                AudioManager.instance.PlayerSecondBGm();
+            }
+
         }
 
         basicEnemy.gameObject.SetActive(false);
         AliveEnemyList.Remove(basicEnemy);
         EnemyPool.Add(basicEnemy);
     }
-
 
     public BasicEnemy GetEnemyByItsTransform(Transform EnemyTransform)
     {

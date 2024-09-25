@@ -30,6 +30,17 @@ public class CharacterSelect : MonoBehaviour
         thirdPlayerAction.Enable();
         thirdPlayerAction.performed += SelectTank;
     }
+
+    public void OnDisable()
+    {
+        firstPlayerAction.Disable();
+        firstPlayerAction.performed -= SelectArcher;
+        secondPlayerAction.Disable();
+        secondPlayerAction.performed -= SelectFighter;
+        thirdPlayerAction.Disable();
+        thirdPlayerAction.performed -= SelectTank;
+    }
+
     public void SelectArcher(InputAction.CallbackContext context)
     {
         SelectThis(0);

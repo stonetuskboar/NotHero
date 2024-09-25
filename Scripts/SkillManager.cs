@@ -14,6 +14,8 @@ public class SkillManager : MonoBehaviour
     public CanvasGroup rogueCanvasGroup;
     public SpeedSkill MoveSpeedSkill;
     public GameObject magicPrefab;
+    private int nowShowSkillId = 0;
+    private int waitToShowId = 0;
     public InputAction QKeyAction;
     public InputAction WKeyAction;
     public InputAction EKeyAction;
@@ -21,6 +23,9 @@ public class SkillManager : MonoBehaviour
     public InputAction TKeyAction;
     public void Start()
     {
+        nowShowSkillId = 0;
+        waitToShowId = 0;
+
         rogueCanvasGroup.alpha = 0f;
         rogueCanvasGroup.interactable = false;
         rogueCanvasGroup.blocksRaycasts = false;
@@ -47,12 +52,29 @@ public class SkillManager : MonoBehaviour
         TKeyAction.Enable();
         TKeyAction.performed += OnTkeyPressed;
     }
+    public void OnDisable()
+    {
+        QKeyAction.Disable();
+        QKeyAction.performed -= OnQkeyPressed;
+        WKeyAction.Disable();
+        WKeyAction.performed -= OnWkeyPressed;
+        EKeyAction.Disable();
+        EKeyAction.performed -= OnEkeyPressed;
+        RKeyAction.Disable();
+        RKeyAction.performed -= OnRkeyPressed;
+        TKeyAction.Disable();
+        TKeyAction.performed -= OnTkeyPressed;
+    }
 
     public void CreateMagicEffectAt(Transform tf)
     {
        Instantiate(magicPrefab , tf);
     }
 
+    public void UpgradeSkill()
+    {
+        StartCoroutine(ShowSkillUI());
+    }
     public void ShowRandomThreeSkill()
     {
         for (int i = 0; i < ButtonList.Count; i++)
@@ -60,16 +82,18 @@ public class SkillManager : MonoBehaviour
             ButtonList[i].gameObject.SetActive(false);
         }
         List<int> randomValue = new List<int>();
-        while(randomValue.Count <3) {
+        while (randomValue.Count < 3)
+        {
             int ran = Random.Range(0, ButtonList.Count);
             bool isUnique = true;
-            for (int i = 0; i< randomValue.Count; i++)
+            for (int i = 0; i < randomValue.Count; i++)
             {
-                if (randomValue[i] == ran) {  
-                    isUnique = false; break; 
+                if (randomValue[i] == ran)
+                {
+                    isUnique = false; break;
                 }
             }
-            if(isUnique == true)
+            if (isUnique == true)
             {
                 randomValue.Add(ran);
             }
@@ -78,17 +102,23 @@ public class SkillManager : MonoBehaviour
         {
             ButtonList[randomValue[i]].gameObject.SetActive(true);
         }
-        StartCoroutine(ShowUI());
     }
-
 
     public void UpgradeThisSkill(int id) 
     {
         SkillList[id].Upgrade();
-        StartCoroutine(HideUI());
+        StartCoroutine(HideSkillUI());
     }
-    IEnumerator ShowUI()
+    IEnumerator ShowSkillUI()
     {
+        int thisId = waitToShowId;//初始情况waitToshowId == nowshowskillId 
+        waitToShowId++;
+        while(thisId > nowShowSkillId)
+        {
+            yield return null;
+        }
+        Time.timeScale = 0.001f;
+        ShowRandomThreeSkill();
         rogueCanvasGroup.alpha = 0f;
         rogueCanvasGroup.interactable = false;
         rogueCanvasGroup.blocksRaycasts = true;
@@ -98,15 +128,14 @@ public class SkillManager : MonoBehaviour
         {
             rogueCanvasGroup.alpha = time / 0.5f;
             yield return null;
-            time += Time.deltaTime;
+            time += Time.unscaledDeltaTime;
         }
         rogueCanvasGroup.alpha = 1f;
+        rogueCanvasGroup.interactable = false;
         rogueCanvasGroup.interactable = true;
-        Time.timeScale = 0.001f;
     }
-    IEnumerator HideUI()
+    IEnumerator HideSkillUI()
     {
-        Time.timeScale = 1f;
         rogueCanvasGroup.alpha = 1f;
         rogueCanvasGroup.interactable = false;
         rogueCanvasGroup.blocksRaycasts = true;
@@ -116,10 +145,14 @@ public class SkillManager : MonoBehaviour
         {
             rogueCanvasGroup.alpha = 1 - time / 0.5f;
             yield return null;
-            time += Time.deltaTime;
+            time += Time.unscaledDeltaTime;
         }
+        Time.timeScale = 1f;
         rogueCanvasGroup.alpha = 0f;
+        rogueCanvasGroup.interactable = false;
         rogueCanvasGroup.blocksRaycasts = false;
+
+        nowShowSkillId++;   //对应上showSkillUI        while(thisId > nowShowSkillId)
     }
 
     public void OnQkeyPressed(InputAction.CallbackContext context)

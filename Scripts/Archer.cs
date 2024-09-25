@@ -20,6 +20,10 @@ public class Archer : BasicPlayer
             targetEnemy = enemyManager.GetClosestEnemy(transform);
             if (targetEnemy == null)
             {
+                if (nowState == PlayerAnimation.walk)
+                {
+                    WalkStateEnd();
+                }
                 return;
             }
         }
@@ -37,16 +41,18 @@ public class Archer : BasicPlayer
         if (nowState == PlayerAnimation.idle)
         {
             rb2D.velocity = Vector2.zero;
-            if (distance.magnitude < realRange && distance.magnitude > realRange / 3)
+            if (distance.magnitude > realRange)
+            {
+                ChangeToWalkState();
+            }else if(distance.magnitude > realRange / 3)
             {
                 if (attackLeftTime <= 0f)
                 {
                     AttackEnemy();
                 }
-            }
-            else
+            } else
             {
-                ChangeToWalkState();
+                ChangeToFleeState();
             }
         }
         if (nowState == PlayerAnimation.walk)
@@ -55,58 +61,86 @@ public class Archer : BasicPlayer
             {
                 rb2D.velocity = distance.normalized * GetMoveSpeed();
             }
-            else if( distance.magnitude > realRange / 2) // 跑到1/2的距离才会继续攻击
+            else
             {
                 WalkStateEnd();
+                if (distance.magnitude > realRange / 3) // 跑到1/2的距离才会继续攻击
+                {
+                    if (attackLeftTime <= 0f)
+                    {
+                        AttackEnemy();
+                    }
+                }
+                else
+                {
+                    ChangeToFleeState();
+                }
+            }
+        }
+        if (nowState == PlayerAnimation.flee)
+        {
+            if (distance.magnitude < realRange / 2) // 跑到1/2的距离才会继续攻击
+            {
+                if(Mathf.Abs(transform.position.y) > 11)
+                {
+                    rb2D.velocity = -(2 + GetMoveSpeed()) * (distance * new Vector2(3,1)).normalized;
+                }
+                else
+                {
+                    rb2D.velocity = -(2 + GetMoveSpeed()) * distance.normalized;
+                }
+            }
+            else
+            {
+                FleeStateEnd();
                 if (attackLeftTime <= 0f)
                 {
                     AttackEnemy();
                 }
             }
-            else
-            {
-                rb2D.velocity = - GetMoveSpeed() * distance.normalized;
-            }
         }
     }
     public override void Upgrade()
     {
-        MaxHp *= 1.05f;
-        nowHp += MaxHp * 0.05f;
-        attackDamage *= 1.1f;
-        attackSpeed *= 1.1f;
-        moveSpeed *= 1.05f;
+        MaxHp += BasicHp * 0.05f;
+        nowHp += BasicHp * 0.05f;
+        attackDamage += BasicAttackDamage * 0.1f;
+        attackSpeed += BasicAttackSpeed * 0.1f;
+        moveSpeed += BasicMoveSpeed * 0.05f;
     }
 
-    public override void GetDamage(float damage, Vector2 force, AttackType type, BasicEnemy enemy)
+    public void ChangeToFleeState()
     {
-        damage -= GetDefense();
-        nowHp -= damage;
-        lifeBar.fillAmount = nowHp / MaxHp;
-        if (damage > toughness)
-        {
-            rb2D.AddForce(force, ForceMode2D.Impulse);
-            ChangeToHurtState();
-            if(type == AttackType.Melee)
-            {
-                playerManager.skillManager.MoveSpeedSkill.UseSkillToTarget(this);
-                targetEnemy = enemy;
-            }
-        }
+        nowState = PlayerAnimation.flee;
+        animator.SetBool("walk", true);
     }
+
+    public void FleeStateEnd()
+    {
+        rb2D.velocity = Vector2.zero;
+        nowState = PlayerAnimation.idle;
+        animator.SetBool("walk", false);
+    }
+
     public void ShootArrow()
     {
         if (IsTargetOk() == true)
         {
-            AudioManager.instance.PlayOneShotAt(1);
             Vector2 distance = targetEnemy.transform.position - transform.position;
-            if(distance.magnitude < range * 1.5f)
+            if (distance.magnitude < range * 1.5f)
             {
+                AudioManager.instance.PlayOneShotAt(1);
                 GameObject tmp = Instantiate(arrowPrefab, arrowPool);
                 tmp.transform.position = arrowPosition.position;
                 Arrow arrowScript = tmp.GetComponent<Arrow>();
                 arrowScript.InitArrow("Enemy", targetEnemy.transform, ArrowSpeed, GetAttackDamage(), attackForce, this);
-                if (StabAmount > 0)
+                // 攻击之后
+                if (distance.magnitude < range / 3)
+                {
+                    AttackStateEnd();
+                    ChangeToFleeState();
+                }
+                else if (StabAmount > 0 )
                 {
                     StabAmount--;
                     animator.Play("attack", 0, StabAnimationProgress);
@@ -116,13 +150,11 @@ public class Archer : BasicPlayer
             {
                 AttackStateEnd();
             }
-
         }
         else
         {
             AttackStateEnd();
         }
-
     }
 
 

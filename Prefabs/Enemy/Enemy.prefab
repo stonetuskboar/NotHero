@@ -384,6 +384,8 @@ MonoBehaviour:
   AttackDamage: 0
   Defense: 0
   Toughness: 0
+  HurtTime: 1
+  NowHurtTime: 0
   attackForce: 100
   range: 1
   AdditionalSize: 0

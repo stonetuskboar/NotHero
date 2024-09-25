@@ -21,6 +21,7 @@ MonoBehaviour:
     AttackDamage: 35
     Defense: 5
     Toughness: 10
+    HurtTime: 0.5
     Force: 100
     Range: 1.2
     size: 0
@@ -33,6 +34,7 @@ MonoBehaviour:
     AttackDamage: 25
     Defense: 0
     Toughness: 0
+    HurtTime: 0.5
     Force: 50
     Range: 8
     size: 0
@@ -41,10 +43,11 @@ MonoBehaviour:
     nowHp: 4000
     MaxHp: 4000
     MoveSpeed: 1.5
-    AttackSpeed: 1.5
+    AttackSpeed: 1
     AttackDamage: 80
     Defense: 30
     Toughness: 90
+    HurtTime: 1
     Force: 300
     Range: 2
     size: 0.5
@@ -57,8 +60,9 @@ MonoBehaviour:
     AttackDamage: 200
     Defense: 50
     Toughness: 100
+    HurtTime: 2
     Force: 400
-    Range: 6
+    Range: 8
     size: 0.5
     Exp: 300
   EnemyWaves:
@@ -79,10 +83,13 @@ MonoBehaviour:
     enemyAmount: 40
   - waveId: 5
     Enemys: 04000000000000000100000000000000
-    enemyAmount: 14
+    enemyAmount: 19
   - waveId: 6
-    Enemys: 05000000030000000200000000000000
-    enemyAmount: 32
+    Enemys: 05000000030000000100000000000000
+    enemyAmount: 46
   - waveId: 7
-    Enemys: 00000000000000000300000001000000
-    enemyAmount: 2
+    Enemys: 02000000020000000200000001000000
+    enemyAmount: 3
+  - waveId: 8
+    Enemys: 02000000000000000100000000000000
+    enemyAmount: 1000

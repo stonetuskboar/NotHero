@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
-    public ContactFilter2D playerFilter;
     public List<BasicPlayer> PlayerList = new List<BasicPlayer>();
     public EnemyManager enemyManager;
     public SkillManager skillManager;
@@ -15,7 +14,7 @@ public class PlayerManager : MonoBehaviour
     public int NowLevel = 1;
     public void Start()
     {
-        MaxExp = 100;
+        MaxExp = 50;
         ExpBar.fillAmount = NowExp / MaxExp;
         for (int i = 0; i < PlayerList.Count; i++)
         {
@@ -89,7 +88,25 @@ public class PlayerManager : MonoBehaviour
         }
         return player;
     }
-
+    public BasicPlayer FindPlayerByHateness()
+    {
+        int rand = Random.Range(0, 10);
+        if( rand == 0 )
+        {
+            return FindPlayerByType(PlayerType.priest);
+        }
+        else if ( rand == 1 )
+        {
+            return FindPlayerByType(PlayerType.archer);
+        }else if ( rand <= 4) // 2 3 4
+        {
+            return FindPlayerByType(PlayerType.fighter);
+        }
+        else
+        {
+            return FindPlayerByType(PlayerType.tank);
+        }
+    }
     public void AddExp(int Exp)
     {
         NowExp += Exp;
@@ -97,8 +114,8 @@ public class PlayerManager : MonoBehaviour
         {
             NowExp -= MaxExp;
             NowLevel++;
-            MaxExp = 100 + NowLevel * 10;
-            skillManager.ShowRandomThreeSkill();
+            MaxExp = 5 * NowLevel + (int)(Mathf.Sqrt(NowLevel) * 50);
+            skillManager.UpgradeSkill();
             enemyManager.DecreaseEnemyWaveTime();
             for (int i = 0; i< PlayerList.Count;i++)
             {

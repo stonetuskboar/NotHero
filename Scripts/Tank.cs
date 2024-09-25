@@ -12,11 +12,11 @@ public class Tank : BasicPlayer
 
     public override void Upgrade()
     {
-        MaxHp *= 1.15f;
-        nowHp += MaxHp * 0.15f;
-        moveSpeed *= 1.05f;
-        attackDamage *= 1.05f;
-        attackSpeed *= 1.1f;
+        MaxHp += BasicHp * 0.15f;
+        nowHp += BasicHp * 0.15f;
+        moveSpeed += BasicMoveSpeed * 0.05f;
+        attackDamage += BasicAttackDamage * 0.05f;
+        attackSpeed += BasicAttackSpeed * 0.05f;
     }
     public override void OnDealMeleeDamage()
     {

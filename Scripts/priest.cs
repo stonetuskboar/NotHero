@@ -62,9 +62,9 @@ public class priest : BasicPlayer
 
     public override void Upgrade()
     {
-        MaxHp *= 1.05f;
-        nowHp += MaxHp * 0.05f;
-        moveSpeed *= 1.05f;
+        MaxHp += BasicHp * 0.05f;
+        nowHp += BasicHp * 0.05f;
+        moveSpeed += BasicMoveSpeed * 0.05f;
     }
 
     public void TargetThisPlayer(PlayerType type)

@@ -21,6 +21,7 @@ public class EnemyData
     public float AttackDamage;
     public float Defense;
     public float Toughness;
+    public float HurtTime;
     public float Force = 0.5f;
     public float Range = 1f;
     public float size = 1f;
